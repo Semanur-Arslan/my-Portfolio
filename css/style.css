@@ -1,0 +1,136 @@
+body {
+    overflow-x: hidden;
+    font-family: 'PT Serif' , serif;
+}
+
+
+/* NAVBAR */
+.nav {
+    background-color: #FFDA00;
+}
+.menu{
+    list-style: none;
+    display: block;
+}
+
+.menu li{
+    display: inline;
+    margin: 20px;
+    position: relative;
+    font-size: 16px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: rgb(63, 62, 62);
+}
+
+.menu a:hover {
+    color: black
+}
+
+/* HEADER */
+#header {
+    background-color: #FFDA00;
+    height: 90vh;
+}
+
+#header .row {
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px; 
+    height: 500px; 
+}
+
+#header img {
+    height:90%;
+    height: inherit;
+}
+
+#header button {
+    border: none;
+    background-color: #001b68;
+    color: white;
+    border-radius: 5px;
+    font-size: 20px; 
+    box-shadow: 2px 5px 10px #001b68;
+}
+
+/* ABOUT */
+#about {
+    background-color: rgb(241, 241, 241);
+    
+}
+
+#about .title {
+    margin-top: 200px;
+    width: 400px;
+    
+}
+
+#about h2 {
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 52px;
+    margin-top: -50px;
+}
+
+#about h1 {
+    position: absolute;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    font-size: 150px;
+    margin-top: -150px;
+}
+
+#about img {
+    max-height: 400px;
+    max-width: 400px;
+    border-radius: 30px;
+}
+
+/* SKİLL */
+
+#skill {
+    background-color: rgb(241, 241, 241);
+    
+}
+
+#skill .title {
+    margin-top: 200px;
+    width: 450px;
+    
+}
+
+#skill h2 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 52px;
+    margin-top: -30px; 
+}
+
+#skill h1 {
+    position: absolute;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    font-size: 150px;
+    margin-top: -130px;
+}
+
+#skill .line {
+    border-left: 5px solid #FFDA00;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+}
+
+ #skill .myCard {
+    background-color: rgb(233, 233, 233);
+    border-radius: 10px;
+    box-shadow: 5px 10px 10px rgb(197, 197, 197);
+} 
+
+.development {
+    margin-top: 155px;
+}
