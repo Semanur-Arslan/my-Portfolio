@@ -129,8 +129,73 @@ body {
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
     box-shadow: 5px 10px 10px rgb(197, 197, 197);
+    height: 120px;
+    width: 120px;
+    padding-top: 20px;
 } 
 
-.development {
-    margin-top: 155px;
+/* PROJECT */
+#project {
+    background-color: rgb(241, 241, 241);
+    
 }
+
+#project .title {
+    margin-top: 200px;
+    width: 450px;
+    
+}
+
+#project h2 {
+    position: relative;
+    font-weight: bolder;
+    font-size: 52px;
+    margin-top: -30px; 
+}
+
+#project h1 {
+    position: absolute;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    font-size: 130px;
+    margin-top: -110px;
+}
+
+#project .line {
+    border-left: 5px solid #FFDA00;
+    height: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+}
+
+
+/* CONTACT */
+
+#contact {
+    background-color: rgb(241, 241, 241);
+    
+}
+
+#contact .title {
+    margin-top: 200px;
+    width:550px;
+    
+}
+
+#contact h2 {
+    position: relative;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 52px;
+    margin-top: -50px;
+}
+
+#contact h1 {
+    position: absolute;
+    text-align: center;
+    color: rgb(226, 226, 226);
+    font-size: 150px;
+    margin-top: -150px;
+}
+
