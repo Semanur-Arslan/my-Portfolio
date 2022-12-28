@@ -15,10 +15,12 @@ body {
 
 .menu li{
     display: inline;
-    margin: 20px;
+    margin-right: 25px;
+    margin-left: 25px;
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
 }
+
 
 .menu a {
     text-decoration: none;
@@ -29,31 +31,40 @@ body {
     color: black
 }
 
+.active {
+    border-bottom: black 3px solid;
+    color: black;
+}
+
 /* HEADER */
+
+#header .overlay {
+   background-color: rgb(99, 98, 98, 0.6);
+}
+
 #header {
-    background-color: #FFDA00;
-    height: 90vh;
+    background-image: url(/images/background-image.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
 }
 
 #header .row {
-    background-color: rgb(241, 241, 241);
-    border-radius: 25px; 
-    height: 500px; 
+    height: 100vh
 }
 
-#header img {
-    height:90%;
-    height: inherit;
-}
 
-#header button {
+button {
     border: none;
     background-color: #001b68;
-    color: white;
-    border-radius: 5px;
-    font-size: 20px; 
+    color: whitesmoke;
+    border-radius: 25px;
+    font-size: 18px; 
     box-shadow: 2px 5px 10px #001b68;
 }
+
+
 
 /* ABOUT */
 #about {
@@ -71,15 +82,16 @@ body {
     position: relative;
     text-align: center;
     font-weight: bolder;
-    font-size: 52px;
-    margin-top: -50px;
+    font-size: 48px;
+    margin-top: -70px;
+    margin-right: 50px;
 }
 
 #about h1 {
     position: absolute;
     text-align: center;
     color: rgb(226, 226, 226);
-    font-size: 150px;
+    font-size: 120px;
     margin-top: -150px;
 }
 
@@ -105,34 +117,30 @@ body {
 #skill h2 {
     position: relative;
     font-weight: bolder;
-    font-size: 52px;
-    margin-top: -30px; 
+    font-size: 48px;
+    margin-top: -50px; 
 }
 
 #skill h1 {
     position: absolute;
     text-align: center;
     color: rgb(226, 226, 226);
-    font-size: 150px;
+    font-size: 120px;
     margin-top: -130px;
 }
 
-#skill .line {
-    border-left: 5px solid #FFDA00;
-    height: 50px;
-    position: absolute;
-    left: 50%;
-    margin-left: -3px;
-}
 
  #skill .myCard {
     background-color: rgb(233, 233, 233);
     border-radius: 10px;
     box-shadow: 5px 10px 10px rgb(197, 197, 197);
-    height: 120px;
-    width: 120px;
-    padding-top: 20px;
+    max-width: 100px;
 } 
+
+
+
+
+
 
 /* PROJECT */
 #project {
@@ -149,15 +157,16 @@ body {
 #project h2 {
     position: relative;
     font-weight: bolder;
-    font-size: 52px;
+    font-size: 48px;
     margin-top: -30px; 
+    margin-left: 15px;
 }
 
 #project h1 {
     position: absolute;
     text-align: center;
     color: rgb(226, 226, 226);
-    font-size: 130px;
+    font-size: 120px;
     margin-top: -110px;
 }
 
@@ -187,15 +196,52 @@ body {
     position: relative;
     text-align: center;
     font-weight: bolder;
-    font-size: 52px;
-    margin-top: -50px;
+    font-size: 48px;
+    margin-top: -70px;
+    margin-right: 100px;
 }
 
 #contact h1 {
     position: absolute;
     text-align: center;
     color: rgb(226, 226, 226);
-    font-size: 150px;
+    font-size: 120px;
     margin-top: -150px;
 }
+
+.form-element label {
+    color: rgb(99, 98, 98);
+}
+
+.form-element input {
+    border: none;
+    border-radius: 5px;
+    height: 35px;
+    box-shadow: 5px 5px 10px rgb(226, 226, 226);
+}
+
+.form-element textarea {
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgb(226, 226, 226);
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #001B68;
+    box-shadow: 0 0 10px #001B68; 
+    color: rgb(68, 68, 68);
+}
+
+
+/* RESPONSİVE */
+@media (max-width: 768px) {
+    #about p {
+        text-align: center;
+        margin-top: 25px;
+    }
+ }
+
+
+
 

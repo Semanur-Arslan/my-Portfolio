@@ -12,7 +12,7 @@
 
     <!-- GOOGLE FONT -->
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
 
     <!-- Bootstrap CSS v5.2.1 -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -31,13 +31,14 @@
 
 <body>
     <!-- NAVBAR -->
-    <div class="nav">
+    <div class="nav fixed-top">
         <div class="container-fluid">
             <div class="row">
-                <ul class="menu d-flex justify-content-center align-items-center">
-                    <li><a href="">About</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul class="menu d-flex justify-content-center mt-3 ps-0">
+                    <li><a class="page1" href="#about">About</a></li>
+                    <li><a class="page2" href="#skill">Skill</a></li>
+                    <li><a class="page3" href="#project">Projects</a></li>
+                    <li><a class="page4" href="#contact">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -47,19 +48,23 @@
 
     <!-- HEADER -->
     <header id="header">
-        <div class="container">
-            <div class="row">
-                <div class="col-6 p-0 text-center mt-5">
-                    <h4 class="fw-bold display-4 mt-5">JR. <span style="color: #FFDA00;">FRONT-END</span> DEVELOPER</h4>
-                    <h3 class="mt-3">Semanur Arslan</h3>
-                    <button class="px-3 mt-3 " type="button">GitHub</button>
-                </div>
-                <div class="col-6 mt-5">
-                    <img class="img-fluid mt-3" src="/images/header-draw.png" alt="">
+        <div class="overlay">
+            <div class="container-fluid ">
+                <div class="row d-flex align-items-center text-center">
+                    <div class="title ">
+                        <h4 class="fw-bold display-5 mt-5">JR. <span style="color: #f8d50b;">FRONT-END</span> DEVELOPER
+                        </h4>
+                        <h3 class="mt-3">Semanur Arslan</h3>
+
+                        <a href="https://github.com/Semanur-Arslan" target="_blank"><button class="px-3 py-2 mt-3"
+                                type="button">GitHub</button></a>
+                    </div>
+
                 </div>
             </div>
         </div>
     </header>
+
 
     <!-- ABOUT -->
     <section id="about">
@@ -68,14 +73,24 @@
                 <h1>Profile</h1>
                 <h2>Ab<span style="border-bottom: #FFDA00 solid 5px; ">out </span>Me</h2>
             </div>
-           
+
         </div>
 
         <div class="container">
             <div class="row mt-5">
                 <div class="col-md-6 d-flex justify-content-center"><img src="/images/photo.jpg.png" alt=""></div>
-                <div class="col-md-6 d-flex align-items-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae laudantium reprehenderit vel odio rerum voluptatibus dignissimos sit unde temporibus quae architecto ipsum placeat, recusandae et dolor tempora magni necessitatibus eaque amet? Consectetur est quisquam deleniti sunt voluptas quis ipsa quasi asperiores aspernatur quam. Facilis obcaecati dignissimos libero laborum harum repellat expedita maiores porro at culpa maxime corporis amet vel, labore sapiente ab veritatis! Deleniti rerum veniam officia consequuntur excepturi at, dolores rem eligendi fugiat natus! Asperiores voluptatum numquam adipisci. Deserunt doloremque qui illo consequatur, nemo mollitia est quisquam libero a esse dolorem rem soluta, atque veritatis dolorum incidunt commodi..</div>
-                
+                <div class="col-md-6 d-flex align-items-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut repudiandae laudantium reprehenderit
+                        vel odio rerum voluptatibus dignissimos sit unde temporibus quae architecto ipsum placeat,
+                        recusandae et dolor tempora magni necessitatibus eaque amet? Consectetur est quisquam deleniti
+                        sunt voluptas quis ipsa quasi asperiores aspernatur quam. Facilis obcaecati dignissimos libero
+                        laborum harum repellat expedita maiores porro at culpa maxime corporis amet vel, labore sapiente
+                        ab veritatis! Deleniti rerum veniam officia consequuntur excepturi at, dolores rem eligendi
+                        fugiat natus! Asperiores voluptatum numquam adipisci. Deserunt doloremque qui illo consequatur,
+                        nemo mollitia est quisquam libero a esse dolorem rem soluta, atque veritatis dolorum incidunt
+                        commodi..</p>
+                </div>
+
             </div>
         </div>
     </section>
@@ -89,89 +104,75 @@
             </div>
         </div>
 
-        <div class="container">
-            <div class="row mt-5 design">
-                 <div class="col-sm-4">
-                    <div class="row justify-content-end ">
-                        <div class="col-4 ">
-                            <div class="myCard text-center">
-                                <img height="50px" src="/images/figma-1.svg" alt="">
-                                <p class="mt-2">FİGMA</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="myCard text-center ">
-                                <img height="50px" src="/images/photoshop-cc-6.svg" alt="">
-                                <p class="mt-2">PHOTOSHOP</p>
-                            </div>
-                        </div>
-                        
+        <div class="container-fluid">
+            <div class="row mt-5 d-flex justify-content-center">
+               
+                    <div class="myCard text-center me-3 pt-4">
+                        <img height="35px" src="/images/figma-1.svg" alt="">
+                        <p class="mt-2">Figma</p>
                     </div>
-
-                    <div class="row justify-content-end mt-5">
-                        <div class="col-4 mt-5">
-                            <div class="myCard text-center mt-5">
-                                <img height="80px" src="/images/responsive-design.png" alt="">
-                            </div>
-                        </div>
-
+                
+                    <div class="myCard text-center pt-4">
+                        <img height="35px" src="/images/photoshop-cc-6.svg" alt="">
+                        <p class="mt-2">Photoshop</p>
                     </div>
-                 </div>
-
-                 <div class="col-sm-4 text-center mt-5">
-                    <div class="line" style="margin-top: 50px;"></div>
-                    <h3 style="margin-right: 120px;">Web Design</h3>
-
-                    <div class="line" style="margin-top: 150px;"></div>
-                    <h3 style="margin-top: 80px; margin-left: 180px;">Front-end Development</h3>
-
-                    <div class="line" style="margin-top: 150px;"></div>
-                    <h3 style="margin-top: 90px; margin-right: 180px;">Responsive Design</h3>
-
-                 </div>
-                 <div class="col-sm-4 ">
-                    <div class="row mt-5">
-                        <div class="col-4">
-                            <div class="myCard text-center">
-                                <img height="50px" src="/images/html-1.svg" alt="">
-                                <p class="mt-2">HTML5</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="myCard text-center ">
-                                <img height="50px" src="/images/css-3.svg" alt="">
-                                <p class="mt-2">CSS3</p>
-                                
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="myCard text-center ">
-                                <img height="50px" src="/images/bootstrap-5-1.svg" alt="">
-                                <p class="mt-2">BOOTSTRAP5</p>
-                            </div>
-                        </div>
+                    <div style="border-right: #FFDA00 5px solid; width: 200px;" >
+                        <h4  class="mt-4 text-end">Web Design</h4>
                     </div>
-
-                    <div class="row mt-3 d-flex justify-content-center">
-                        <div class="col-4">
-                            <div class="myCard text-center ">
-                                <img  height="50px" src="/images/logo-javascript.svg" alt="">
-                                <p class="mt-2">JAVASCRİPT</p>
-                            </div>
-                        </div>
-                        <div class="col-4">
-                            <div class="myCard text-center ">
-                                <img class="mt-4" height="30px" src="/images/jquery-2.svg" alt="">
-                                <p class="mt-2">JQUERY</p>
-                            </div>
-                        </div>
-                    </div>
-                 </div>      
+                
             </div>
-        </div>
 
-         
+            <div class="row mt-5 d-flex justify-content-center">
+                <div  style="border-left: #FFDA00 5px solid;width: 200px;">
+                    <h4 class="mt-4">Front-end 
+                        Development</h4>
+                </div>
+                
+                    <div class="myCard text-center me-3 pt-4 mt-2">
+                        <img height="35px" src="/images/html-1.svg" alt="">
+                        <p class="mt-2">HTML5</p>
+                    </div>
+                
+                    <div class="myCard text-center me-3 pt-4 mt-2">
+                        <img height="35px" src="/images/css-3.svg" alt="">
+                        <p class="mt-2">CSS3</p>
+
+                    </div>
+               
+                    <div class="myCard text-center me-3 pt-4 mt-2 responsive">
+                        <img height="35px" src="/images/bootstrap-5-1.svg" alt="">
+                        <p class="mt-2">Bootstrap5</p>
+                    </div>
+
+                    <div class="myCard text-center me-3 pt-4 mt-2 responsive">
+                        <img height="35px" src="/images/logo-javascript.svg" alt="">
+                        <p class="mt-2">JavaScript</p>
+                    </div>
+               
+                    <div class="myCard text-center pt-4 mt-2 responsive">
+                        <img class="mt-1" height="20px" src="/images/jquery-2.svg" alt="">
+                        <p class="mt-2">Jquery</p>
+                    </div>
+              
+                
+            </div>
+
+            <div class="row mt-5 d-flex justify-content-center">
+               
+                <div class="myCard text-center pt-3">
+                    <img height="70px" src="/images/responsive-design.png" alt="">
+                </div>
+            
+            
+                <div style="border-right: #FFDA00 5px solid; width: 250px;" >
+                    <h4  class="mt-4 text-end">Responsive Design</h4>
+                </div>
+            
+        </div>
+           
+        
     </section>
+
 
     <!-- PROJECT -->
     <section id="project">
@@ -184,7 +185,19 @@
 
         <div class="container mt-4">
             <div class="row">
-                <img src="/images/last-project.png" alt="">
+                <div class="col-md-8">
+                    <img class="img-fluid" src="/images/last-project.png" alt="">
+                </div>
+
+                <div class="col-md-4 mt-5 d-flex align-items-center justify-content-center flex-column text-center">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe optio, repellendus alias veritatis
+                        voluptates officiis dignissimos consequuntur quod? Accusantium, fugit.</p>
+                    <a href="https://github.com/Semanur-Arslan" target="_blank"><button class="px-3 py-2 mt-3"
+                            type="button">
+                            View With GitHub</button></a>
+                </div>
+
+
             </div>
         </div>
     </section>
@@ -196,7 +209,29 @@
                 <h1>Contact</h1>
                 <h2>Let<span style="border-bottom: #FFDA00 solid 5px; ">'s Ta</span>lk</h2>
             </div>
-           
+        </div>
+
+        <div class="row d-flex justify-content-center">
+            <div class="col-8 col-md-6 mt-5">
+                <form>
+                    <div class="form-element mb-3">
+                        <label for="name" class="w-100">Name</label>
+                        <input id="name" class="w-100" type="text" required="required">
+                    </div>
+                    <div class="form-element mb-3">
+                        <label for="email" class="w-100">E-mail</label>
+                        <input id="email" class="w-100" type="email" required="required">
+                    </div>
+                    <div class="form-element mb-3">
+                        <label for="message" class="w-100">Message</label>
+                        <textarea name="" id="" class="w-100" rows="5" required="required"></textarea>
+                    </div>
+                    <div class="d-flex justify-content-center">
+                        <button class="px-3 py-2 mt-3" type="submit" href="mailto:semanurrrarslan@gmail.com">Submit
+                            Form</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </section>
 
