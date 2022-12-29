@@ -233,6 +233,11 @@ input:focus, textarea:focus {
     color: rgb(68, 68, 68);
 }
 
+/* FOOTER */
+#footer {
+    background-color: #FFDA00;
+}
+
 
 /* RESPONSİVE */
 @media (max-width: 768px) {

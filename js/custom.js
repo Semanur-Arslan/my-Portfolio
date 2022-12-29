@@ -7,11 +7,11 @@ $(document).ready(function(){
             $('.page1, .page3, page4').removeClass('active')
             $('.page2').addClass('active')
         }
-        else if($(this).scrollTop() > 1800 && $(this).scrollTop() < 2590) {
+        else if($(this).scrollTop() > 1800 && $(this).scrollTop() < 2400) {
             $('page1, .page2, .page4').removeClass('active')
             $('.page3').addClass('active')
         }
-        else if($(this).scrollTop() >2590) {
+        else if($(this).scrollTop() >2400) {
             $('.page1, .page2, .page3').removeClass('active')
             $('.page4').addClass('active')
         }else {
