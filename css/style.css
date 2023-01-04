@@ -95,11 +95,50 @@ button {
     margin-top: -150px;
 }
 
-#about img {
+#about .myPhoto {
     max-height: 400px;
     max-width: 400px;
     border-radius: 30px;
 }
+
+#about .successPhoto{
+    height: 125px;
+    width: 175px;
+}
+
+#about a {
+    margin: 0;
+    padding: 0;
+    position: relative;
+ }
+ 
+ 
+ #about .overlay{
+   position: absolute;
+ height: 0;
+ width: 0;
+    top: 100%;
+    left: 0;
+    transition: .5s;
+ }
+ 
+ .overlay i {
+    opacity: 0;
+    color: black;
+
+ }
+ 
+ #about a:hover i {
+    opacity: 1;
+ }
+ 
+ #about a:hover .overlay {
+    background-color: hsl(51, 100%, 50%, .6);
+    top: 0;
+      height: 125px;
+    width: 175px;
+    
+ }
 
 /* SKİLL */
 

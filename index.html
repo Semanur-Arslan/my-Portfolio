@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Portfolio</title>
+    <title>Personal Portfolio / Semanur Arslan</title>
 
     <!-- FONTAWESOME -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.2.0/css/all.css">
@@ -27,6 +27,9 @@
     <!-- ScrollReveal-->
     <script src="https://unpkg.com/scrollreveal"></script>
     <script>ScrollReveal({ reset: true });</script>
+
+     <!-- LİGHTBOX-->
+     <link href="/css/lightbox.css" rel="stylesheet" />
 </head>
 
 <body>
@@ -78,7 +81,7 @@
 
         <div class="container">
             <div class="row mt-5">
-                <div class="col-md-6 d-flex justify-content-center"><img src="/images/photo.jpg.png" alt=""></div>
+                <div class="col-md-6 d-flex justify-content-center"><img class="myPhoto" src="/images/photo.jpg.png" alt=""></div>
                 <div class="col-md-6 d-flex flex-column">
                     <h3>Merhaba... </h3>
                     <p>
@@ -87,6 +90,18 @@
                     <p>
                         Web teknolojileri ile ilgileniyorum. Front-end alanına ilgim bulunmakta ve bu alanda kendimi geliştirmekteyim. Birçok çeşitli kaynaktan yararlanarak bu alanın gerekliliklerine hakim olduğumu düşünüyorum. Responsive tasarım kriterlerini de gözönünde bulundurarak HTML , CSS ve JavaScript ile web sitelerinin front-end kısımlarını tamamlayabilmekteyim. 
                     </p>
+                    <div class="row d-flex justify-content-center">
+                        <div class="col-6 mt-3 d-flex justify-content-center">
+                            <a  href="/images/front-end sertifika.png" data-lightbox="sertifika">
+                                <img class="img-fluid 
+                                successPhoto" src="/images/front-end sertifika.png" alt="">
+                                <div class="overlay d-flex justify-content-center align-items-center">
+                                    <i class="far fa-search-plus">       Certificate</i>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-6"></div>
+                    </div>
                 </div>
 
             </div>
@@ -188,10 +203,7 @@
                 </div>
 
                 <div class="col-md-4 mt-5 d-flex align-items-center justify-content-center flex-column text-center">
-                    <p>Merhaba... 
-                        Ben Semanur Arslan. İzmir'de yaşıyorum ve ikinci üniveriste olarak Anadolu Üniversitesi Web Tasarım ve Kodlama bölümüne devam etmekteyim. 
-                        Web teknolojileri ile ilgileniyorum. Front-end alanına ilgim bulunmakta ve bu alanda kendimi geliştirmekteyim. Birçok çeşitli kaynaktan yararlanarak bu alanın gerekliliklerine hakim olduğumu düşünüyorum. Responsive tasarım kriterlerini de gözönünde bulundurarak HTML , CSS ve javascript ile web sitelerinin front-end kısımlarını tamamlayabilmekteyim. 
-                        
+                    <p> Son olarak üzerinde çalıştığım fotoğrafçılık web sitesini github hesabımdan inceleyebilirsiniz. 
                     </p>
                     <a href="https://github.com/Semanur-Arslan/PROJECT-1" target="_blank"><button class="px-3 py-2 mt-3"
                             type="button">
@@ -272,6 +284,8 @@
 
     <!-- JS CUSTOM -->
     <script src="/js/custom.js"></script>
+      <!-- LİGHTBOX -->
+      <script src="/js/lightbox.js"></script>
 </body>
 
 </html>
