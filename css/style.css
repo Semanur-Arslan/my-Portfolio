@@ -218,6 +218,10 @@ button {
 }
 
 
+
+
+
+
 /* CONTACT */
 
 #contact {
@@ -278,9 +282,37 @@ input:focus, textarea:focus {
 }
 
 
+
+/* PROJECT1 */
+.buyuyenresim {
+  
+    margin-left:50px;
+    -webkit-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+    transform: scale(1, 1);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    }
+    
+    .buyuyenresim:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.2, 1.2);
+    -ms-transform: scale(1.2, 1.2);
+    transform: scale(1.2, 1.2);
+    transition-duration: 0.3s;
+    -webkit-transition-duration: 0.3s; 
+    box-shadow: 10px 10px 5px #888888;
+    z-index: 2;
+    position:relative;
+    }
+
 /* RESPONSİVE */
 @media (max-width: 768px) {
-    #about p h3 {
+    #about p  {
+        text-align: center;
+        margin-top: 25px;
+    }
+    #about h3  {
         text-align: center;
         margin-top: 25px;
     }
